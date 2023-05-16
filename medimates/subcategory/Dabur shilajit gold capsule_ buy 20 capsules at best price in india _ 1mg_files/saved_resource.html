@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://www.1mg.com/otc/dabur-shilajit-gold-capsule-otc143384?uId=49 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	
+    <script async="" src="./analytics.js.download"></script><script src="./jquery.min.js.download"></script>
+    
+    <style type="text/css">
+    	body{
+    		background-color: rgb(255, 216, 33 );
+                color: #000000;
+                 background-image: ;
+    		line-height: 33px;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                margin: 0;
+    	}
+        img {
+            vertical-align: middle;
+            border: 0 none;
+        }
+    	.poweredby{
+    		width: 38px;
+    		float:left;
+    		margin-right:5px;
+    		text-align: center;
+    	}
+    	.content{
+                margin-right:30px;
+                text-align: center;
+    	}
+        .action{
+                margin-left: 10px;
+                text-decoration: none;
+        }
+        p{
+                margin: 0px;
+        }
+        .btn{
+            border-radius : 2px;
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 0;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+        .btn-xs {
+            font-size: 14px;
+            line-height: 1.5;
+            padding: 1px 5px;
+        }
+        .btn-default{
+                background-color: #0b3e52;
+                border-color: #0b3e52;
+                color: rgb(255, 255, 255);
+        }
+                .btn-default:hover {
+                background-color: #0b3e52;
+                -webkit-filter: contrast(160%);
+                border-color: #0b3e52;
+                color: rgb(255, 255, 255);
+        }   
+        
+    </style>
+</head>
+<body class="animated slideInLeft" style="" marginwidth="0" marginheight="0">
+    
+    <div class="content">
+        <div style="display:inline-block;"><div style="width: 100vw; display: inline-flex; justify-content: space-around; align-items: center; height: 35px;"><a style="display: flex; align-items: center; text-decoration: none; width: 17%; justify-content: flex-end;" href="https://www.1mg.com/download">&nbsp; &nbsp;<span id="app_download" style="display: flex; align-items: center; text-decoration: none; cursor: pointer;"><img style="width: 35px; margin-right: -4px;" src="./2018-10-23.png" alt=""><span style="color: #000; line-height: 14px; margin-left: 3px; text-align: left; font-weight: 600;"><span style="font-size: 13px; display: block; font-weight: 500;"><strong>GET THE APP</strong></span></span></span></a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div style="width: 100%;">
+<div style="padding-right: 60px;"><span style="font-size: 11pt;"><span style="color: #000000;"><strong> OFFER EXPIRES TODAY:&nbsp;</strong></span></span><font face="arial, sans, sans-serif"><span style="font-size: 14.6667px; white-space: pre-wrap;">Save up to 25% on allopathy medicines &amp; 40% on lab tests | Extra ₹500 PayPal Cashback. T&amp;C Apply.</span></font>&nbsp;<a style="font-size: 11pt;" href="https://www.1mg.com/offers-9"><span style="color: #000;">Know More</span></a></div>
+</div>
+</div>
+<script>// <![CDATA[
+setTimeout(function(){ 
+document.getElementById("app_download").onclick = function(){
+myFunction();
+// gapush2('click');
+}
+
+function gapush2(type){ 
+var j = ['NotifyVisitors',"Get_the_app","13239",type]; 
+var name = JSON.stringify(j); 
+var domain = window.location.href;
+var message = name; 
+console.log(name);
+parent.postMessage(message,domain); 
+}
+
+function myFunction(){
+var url = "https://www.1mg.com/download";
+ var data = ['NotifyVisitors_button_click','Prod_Contains all City','13239','Clicks',url]; 
+ var jsonData = JSON.stringify(data);
+ var domain = window.location.href;
+ var message = jsonData;
+ parent.postMessage(message, domain);
+}
+
+ }, 100);
+// ]]></script>    </div>
+
+    <script>
+        $(document).ready(function(){
+            function customAjaxCall(url, data, actionFunction){
+		$.ajax({ 
+			url: url,
+                        data: data,
+                        dataType: "jsonp",
+                        success: function(output) { 
+			    if (output.redirect) {
+			        window.location.href = output.redirect;
+			    } else {
+			        actionFunction(output);
+			    }
+                        }
+		});
+            }
+            
+            
+            var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            $("a:not('#poweredby')").click(function() {
+                
+                    ga_event('NotifyVisitors-'+2023,"Prod_Contains all City_20plus5(13239)",'Clicks');
+                    gapush('Clicks');
+                    
+                    var target = $(this).attr('target');
+                    var data = {
+                        href: $(this).attr('href'),
+                        target: target,
+                        referrer: window.location.href,
+                        linkreferrer: document.referrer
+                    }
+                    var url = 'https://www.notifyvisitors.com/user/notifications_v2/callToAction?notificationid=13239&brandid=2023&tokens=%22%22';
+                    customAjaxCall(url, data, callToActionResponse);
+                    
+                    if(!target){
+                        return false;
+                    }
+              });
+
+            function callToActionResponse(output){
+                    if(iOS){
+                            iphone_redirect(output.callToActionUrl, output.callToActionTarget);
+                    } else if(output.callToActionTarget == 0){
+                        window.top.location.href = output.callToActionUrl;
+                    } 
+                    
+                                }
+            
+            gapush('Impressions');
+                   
+            function gapush(type){
+                    var j = ['NotifyVisitors',"Prod_Contains all City_20plus5","13239",type];
+                    var name = JSON.stringify(j);
+                    var domain = window.location.href;
+                    var message = name;
+                    //console.log(domain);
+                    parent.postMessage(message,domain); 
+            }
+            
+                            
+                window.addEventListener('load', function() {
+                    var j = ['nv_iframeDisplay','singleLineBar',"13239",'{"repeat_notification":"0","template":"5"}'];
+                    var message = JSON.stringify(j); 
+                    var domain = window.location.href;
+                    parent.postMessage(message,domain);
+                });
+            
+            function iphone_redirect(href, target){
+                    var j = ['nv_iphone',href,target];
+                    var message = JSON.stringify(j);
+                    var domain = window.location.href;
+                    //console.log(message);
+                    parent.postMessage(message,domain); 
+            }
+                    
+            function autoclose(notification_id){
+                    var j = ["autoclose",notification_id];
+                    var message = JSON.stringify(j);
+                    var domain = window.location.href;
+                   // console.log(domain);
+                    parent.postMessage(message,domain);
+            }
+    
+        });
+    </script> 
+    
+     
+    
+        </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52004965-1', 'auto', {'name': 'nv_user'});
+  
+  ga_event('NotifyVisitors-'+2023,"Prod_Contains all City_20plus5(13239)",'Views');
+  
+  function ga_event(category, action, label){
+      ga('nv_user.send', 'event', category, action, label, 1, { nonInteraction: true });
+  }
+
+</script>
+
+</body></html>

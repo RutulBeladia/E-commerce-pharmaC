@@ -1,0 +1,20 @@
+<?php 
+if(isset($_POST['submit']))
+{
+$name=$_POST['name'];
+$phone=$_POST['phone'];
+$email=$_POST['email'];
+$msg=$_POST['msg'];
+
+$cn=mysqli_connect('localhost','root','','medimates');
+$insert=mysqli_query($cn,"insert into contactus values('','$name','$phone','email','msg')");
+if($insert)
+{
+	echo "<script>alert('sented');window.location.href='home.php'</script>";
+}
+else
+{
+	echo "<script>alert('sorry');</script>";
+}
+}
+?>

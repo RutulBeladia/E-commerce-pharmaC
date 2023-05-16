@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* loginpage */
+/*title code*/
+p
+{
+color:#F00;
+font-size:35px;
+/*margin-left:26%;
+margin-top:10%;*/
+font-family:cursive;
+}
+/*set forme place*/
+div
+{
+	margin-left:30%;
+	margin-top:5.5%;
+	height:520px;
+	width:500px;
+	opacity:1.0;
+	background-color:#FFF;
+	outline:none;
+}
+/*-----------------*/
+
+/*enter name code*/
+input 
+{
+	display:block;
+    width: 400px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #CCC;
+	background:none;
+	outline:none;
+}
+
+input:focus 
+{
+	display:block;
+    width: 400px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid blue;
+	background:none;
+	outline:none;
+}
+/*----------------------------------*/
+
+textarea
+{
+	font-family:Arial;
+	display:block;
+    width:400px;
+	color:#000;
+	padding:12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    background:none;
+	border-bottom:1px solid #CCC;
+	outline:none;
+}
+textarea:focus
+{
+	font-family:Arial;
+	display:block;
+	width:400px;
+	color:#000;   
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    background:none;
+	border-bottom: 2px solid blue;
+	outline:none;
+}
+
+
+/*login button code*/
+input[type="submit"]
+{
+	color:#FFFFFF;
+	margin:15px 50px;
+	text-decoration:none;
+	font-size:20px;
+	background-color:#000;
+	padding:14px 100px;
+	text-align:center;
+	border:none;
+	border-radius:100px;
+}
+
+input[type="submit"]:hover
+{
+	background-color:#F00;
+	text-align:center;
+	text-decoration:none;
+	border:none;
+	border-radius:100px;
+}
+/*-------------------------------------*/
+
+/*background-img code*/
+body
+{
+	
+	animation-name: example;
+    animation-duration: 15s;
+	animation-timing-function:ease-in-out;
+	animation-iteration-count: infinite;
+	background-position:right top;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	
+}
+@keyframes example {
+    0%	{background-image:url(../images/img3.jpeg);}
+    25%	{background-image:url(../images/img4.jpeg);}
+	50%	{background-image:url(../images/img5.jpeg);}
+   	100%{background-image:url(../images/img6.jpeg);}
+}

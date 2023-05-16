@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* loginpage */
+/*title code*/
+/**{
+	margin: 0px;
+	padding: 0px;
+}
+*/p
+{
+color:#F00;
+font-size:35px;
+margin-left:26%;
+margin-top:22%;
+font-family:cursive;
+}
+/*set forme place*/
+
+/*-----------------*/
+
+/*enter name code*/
+input 
+{
+	display:block;
+    width: 400px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #fff;
+	background:none;
+	outline:none;
+	color:black;
+}
+
+input:focus 
+{
+	display:block;
+    width: 400px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #000;
+	background:#fff;
+	outline:none;
+	color:#000;
+}
+/*----------------------------------*/
+
+/*login button code*/
+input[type=submit]
+{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:20px;
+	background-color:#000;
+	text-align:center;
+	border:none;
+}
+
+input[type=submit]:hover
+{
+	background-color:#F00;
+	text-align:center;
+	text-decoration:none;
+	border:none;
+}
+.logback {
+	width:100%;
+	max-width:400px;
+	margin: 0px auto;
+
+}
+.logbackbig {
+	width:100%;
+	max-width:600px;
+	margin: 0px auto;
+}
+/*-------------------------------------*/
+input::placeholder {
+	color:black;
+}
+#account
+{
+	font-family:Arial;
+	font-size:15px;
+}
